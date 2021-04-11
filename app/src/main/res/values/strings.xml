@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="search_by_city">Search By City</string>
+    <string name="search_by_geo_coordinates">Search By Coordinates</string>
+    <string name="search_by_zip_code">Search By ZIP Code</string>
+    <string name="search_by_cities_circle">Search By Cities Circle</string>
+    <string name="cloud_image">Cloud Image</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_latitude">Enter Latitude</string>
+    <string name="enter_longitude">Enter Longitude</string>
+    <string name="enter_zip_code">Enter Zip Code</string>
+    <string name="enter_country_code">Enter Country Code (optional)</string>
+    <string name="enter_cnt_number">Enter CNT (optional)</string>
+    <string name="start">start</string>
+    <string name="get_weather_report">Get Weather Report</string>
+
+</resources>

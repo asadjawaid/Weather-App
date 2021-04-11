@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#286ADB">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/cloud"
+        android:contentDescription="@string/cloud_image"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="Select an option below" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:layout_marginBottom="66dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/search_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#286ADB"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/search_by_city" />
+
+            <Button
+                android:id="@+id/search_geo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:backgroundTint="#286ADB"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/search_by_geo_coordinates" />
+
+            <Button
+                android:id="@+id/search_zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="147dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:backgroundTint="#286ADB"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/search_by_zip_code" />
+
+
+            <Button
+                android:id="@+id/search_circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="219dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginRight="-1dp"
+                android:backgroundTint="#286ADB"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:text="@string/search_by_cities_circle" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+
+
